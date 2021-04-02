@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Mr.Mike page 2</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+	
+	<style>
+		section.box{
+		  		padding: 25px 45px;
+		  		background: purple;
+		  	} 
+		section.box p, section.box li{
+		  		font-family: 'Syne Mono', monospace;
+		  		font-size: 20px;
+		  		color:white;
+		  	}
+		 section.box h1{
+		 	color: #ffffff;
+		 	text-decoration: underline;
+		 	background: black;
+		 	text-align: center;
+		 	padding:5px;
+		 	font-size: 50px;
+		 	font-family: 'Syne Mono', monospace;
+		 }
+		 iframe{
+		 	border: 5px solid grey;
+		 	padding:5px;
+		 	margin:5px;
+		 	width:500px;
+		 	height:600px;
+		 }
+
+		 table, th,td{
+		 	border: 10px solid black;
+		 	text-align: center;
+		 	font-family: 'Syne Mono', monospace;
+		 }
+
+		 th{
+		 	font-size: 24px;
+		 	height: 50px;
+		 }
+
+		 img.game{
+		 	height: 300px;
+		 	width: 500px;
+		 }
+
+		 section.videogames{
+		 	background:yellow;
+		 }
+
+		 .menu{
+		  		list-style: none;
+		  		padding: 0;
+		  		margin:0;
+		  		text-align: center;
+		  		border-bottom: 5px solid #434a5c;
+		  		border-top: 5px solid 255,157,0;
+		  		background:#ff00ff;
+		  		font-family: 'Syne Mono';
+		  		font-size: 25px;
+		  		font-weight: bold;
+		  		text-transform: uppercase;
+		  		position:fixed;
+		  		top:0;
+		  		left: 0;
+		  		width:100%;
+		  	}
+
+		  	.menu li{
+		  	 display: inline-block;
+		  	padding: 20px 35px;
+		  	}
+
+	</style>
+
+</head>
+
+<body>
+	<ul class="menu">
+		<li><a href ="mrmike.html#about">About me</a></li>
+		<li><a href="mrmike.html#favorites">Favorites</a></li>
+		<li><a href ="#contactme">Contact me</a></li>
+		<li><a href ="#videogames">Video games</a></li>
+		<li><a href="https://www.google.com/" target="_blank">Search</a></li>
+	</ul>
+<section id="contactme" class="contactme box">
+	<h1> Contact me!</h1>
+	<p>I would love to hear from you! Contact me with your questions and comments.</p>
+	<ul>
+		<li>Email: Michael@intellibricks.org</li>
+		<li>Phone: 916-577-5115</li>
+	</ul>
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUnibwc-ePtxrZxs2wDO83CwDTHHOi1AYwvlolUqmm16099g/viewform?embedded=true" width="640" height="683" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</section>
+<section id="videogames" class="videogames box">
+	<h1>Video games that I play! </h1>
+	<p> Check these games out. </p>
+	<table style="width: 100%">
+		<tr> 
+			<th>Game</th>
+			<th>Picture</th>
+			<th>Link</th>
+		</tr>
+		<tr>
+			<td>Minecraft</td>
+			<td> <img class="game" src="images/Minecraft.jpg"> </td>
+			<td> <a href="https://www.minecraft.net">Click here for Minecraft.</a> </td>
+		</tr>
+		<tr>
+			<td>League of Legends</td>
+			<td> <img class="game" src="images/League of Legends.jpg"> </td>
+			<td> <a href="https://na.leagueoflegends.com">Click here for League of Legends.</a> </td>
+		</tr>
+		<tr>
+			<td>Among Us</td>
+			<td> <img class="game" src="images/AmongUs.jpg"> </td>
+			<td> <a href="https://www.innersloth.com/gameAmongUs.php">Click here for Among Us.</a> </td>
+		</tr>
+	</table>
+	
+
+</section>
+</body>
+</html>
